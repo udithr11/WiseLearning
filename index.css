@@ -21,7 +21,7 @@ body{
 
 #center_container {
     
-    background-color: aliceblue;
+    
     display: flex;
     justify-content: center;
 }
@@ -88,5 +88,15 @@ body{
     
     #hero_button{
         margin-left:9rem !important;
+    }
+    #about{
+        padding-top:2rem !important;
+        padding-bottom:2rem !important
+    }
+    #about_image{
+        height:70vh !important;
+    }
+    #about_text{
+        height:30vh !important;
     }
 }

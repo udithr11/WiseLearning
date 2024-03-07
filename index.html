@@ -30,13 +30,13 @@
     <nav id="navbar" style="z-index: 100">
       <div class="container">
         <div class="row" id="header_row">
-          <div class="col-sm-1"></div>
+          <div class="col-sm-1" style="background-color: white"></div>
           <div
             id="center_container"
             class="col-sm-10"
             style="
               padding: 0;
-              background-color: aliceblue;
+              background-color: white;
               display: flex;
               justify-content: space-between;
             "
@@ -87,7 +87,10 @@
               </li>
             </ul>
           </div>
-          <div class="col-sm-1" style="padding: 0"></div>
+          <div
+            class="col-sm-1"
+            style="padding: 0; background-color: white"
+          ></div>
         </div>
       </div>
     </nav>
@@ -100,18 +103,18 @@
             <div
               id="hero_1"
               class="col-lg-6 col-sm-12"
-              style="padding: 0;height: 100vh;
-              display: flex;
-              flex-direction: column;
-              justify-content: center;
-              align-items: flex-start;
-              background-color: rgb(244, 203, 203);"
+              style="
+                padding: 0;
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                background-color: rgb(244, 203, 203);
+              "
             >
               <div id="hero_left">
-                <div
-                  id="hero_text1_text2"
-                  style="background-color: brown"
-                >
+                <div id="hero_text1_text2" style="background-color: brown">
                   <h1 style="font-weight: bold; justify-content: left">
                     Wise Learning App
                   </h1>
@@ -119,45 +122,296 @@
                     A Platform for Active Learning.
                   </h2>
                 </div>
-                <div  style="display: flex; background-color: aqua">
-                  <div id="hero_button" style="width:50%;background-color: aliceblue; display:flex">
-                  <div style="background-color:chocolate_">
-                    <dotlottie-player
-                      src="https://lottie.host/dd4f9b88-4aa4-4caf-9792-f500a10618e1/6XZ6B1TM4u.json"
-                      background="transparent"
-                      speed="1"
-                      style="width: 100%"
-                      loop
-                      autoplay
-                    ></dotlottie-player>
+                <div style="display: flex; background-color: aqua">
+                  <div
+                    id="hero_button"
+                    style="
+                      width: 50%;
+                      background-color: aliceblue;
+                      display: flex;
+                    "
+                  >
+                    <div style="background-color: chocolate">
+                      <dotlottie-player
+                        src="https://lottie.host/dd4f9b88-4aa4-4caf-9792-f500a10618e1/6XZ6B1TM4u.json"
+                        background="transparent"
+                        speed="1"
+                        style="width: 100%"
+                        loop
+                        autoplay
+                      ></dotlottie-player>
+                    </div>
+                    <div>
+                      <dotlottie-player
+                        src="https://lottie.host/63d897cc-7086-46ac-b2ff-6aee1bf4fe5e/uQbwP8Nf6C.json"
+                        background="transparent"
+                        speed="1"
+                        style="width: 90%"
+                        loop
+                        autoplay
+                      ></dotlottie-player>
+                    </div>
                   </div>
-                  <div>
-                    <dotlottie-player
-                      src="https://lottie.host/63d897cc-7086-46ac-b2ff-6aee1bf4fe5e/uQbwP8Nf6C.json"
-                      background="transparent"
-                      speed="1"
-                      style="width: 90%"
-                      loop
-                      autoplay
-                    ></dotlottie-player>
-                  </div>
-                </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-6 col-sm-12" id="hero_2" style="padding: 0; height: 100vh; background-color: blanchedalmond;display: flex; justify-content: center; align-items: center;">
-              <div style="background-color:azure;height:95%;width:90%;display: flex; justify-content: center; align-items: center;flex-wrap:wrap">
+            <div
+              class="col-lg-6 col-sm-12"
+              id="hero_2"
+              style="
+                padding: 0;
+                height: 100vh;
+                background-color: blanchedalmond;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              "
+            >
+              <div
+                style="
+                  background-color: azure;
+                  height: 95%;
+                  width: 90%;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  flex-wrap: wrap;
+                "
+              >
                 <div class="image-container">
-                  <img class="hero_img" src="https://wiselearningapp.com/assets/img/wise-mockup-image-1.png" alt="Wise Mockup Image" style="max-width: 100%; max-height: 100%;">
-
+                  <img
+                    class="hero_img"
+                    src="https://wiselearningapp.com/assets/img/wise-mockup-image-1.png"
+                    alt="Wise Mockup Image"
+                    style="max-width: 100%; max-height: 100%"
+                  />
                 </div>
               </div>
             </div>
-            
           </div>
         </div>
         <div class="col-sm-1"></div>
+      </div>
+    </section>
+
+    <section
+      id="about"
+      style="
+        background-color: #dcedf3;
+        padding-top: 5.25rem;
+        padding-bottom: 5.25rem;
+      "
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-1"></div>
+          <div class="col-sm-10" style="background-color: rgb(239, 170, 170)">
+            <div class="row">
+              <div
+                class="col-sm-12 col-lg-6"
+                id="about_image"
+                style="
+                  background-color: rgb(236, 249, 206);
+
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                "
+              >
+                <div
+                  style="
+                    width: 90%;
+                    height: 90%;
+                    background-color: aqua;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-wrap: wrap;
+                  "
+                >
+                  <dotlottie-player
+                    src="https://lottie.host/dd33c2cf-b2f0-4a87-888c-33a1f7569875/F6JIjeXwU8.json"
+                    background="transparent"
+                    speed="1"
+                    style="width: 100%; height: 100%"
+                    loop
+                    autoplay
+                  ></dotlottie-player>
+                </div>
+              </div>
+              <div
+                id="about_text"
+                class="col-sm-12 col-lg-6"
+                style="
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  padding: 0;
+                "
+              >
+                <div style="width: 100%; background-color: rgb(208, 237, 184)">
+                  <div
+                    style="
+                      font-weight: bold;
+                      font-size: xx-large;
+                      text-align: center;
+                    "
+                  >
+                    ABOUT US
+                  </div>
+                  <div
+                    id="horizontal_line"
+                    style="
+                      display: flex;
+                      justify-content: center;
+                      position: relative;
+                    "
+                  >
+                    <hr style="border: 1px solid gray; width: 25%" />
+                    <div
+                      style="
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        background-color: darkgreen;
+                        height: 4px;
+                        width: 10%;
+                      "
+                    ></div>
+                  </div>
+                  <div
+                    style="
+                      font-weight: 800;
+
+                      text-align: center;
+                    "
+                  >
+                    We support autonomous and active learning. 24*7 access will
+                    assist students anytime. We are emphasizing self paced ,
+                    student oriented education. It is a hub of effectiveness,
+                    efficiency , scalability, convenience and reusability
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-1"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" style="height: 100vh">
+      <div class="container" style="padding-top: 4rem">
+        <div class="row">
+          <div class="col-sm-1"></div>
+          <div class="col-sm-10 col-lg-10" style="background-color: whitesmoke">
+            <div class="row">
+              <div
+                id="box_1"
+                class="col-lg-3"
+                style="
+                  background-color: bisque;
+                  border-radius: 2rem;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  padding: 1rem;
+                "
+              >
+                <div
+                  style="
+                    background-color: white;
+                    width: 90%;
+                    height: 80%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                  "
+                >
+                  <div
+                    style="
+                      height: 70%;
+                      width: 100%;
+                      background-color: antiquewhite;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                    "
+                  >
+                    <img
+                      src="https://wiselearningapp.com/assets/img/features/training.png"
+                      alt="1_img"
+                      style="
+                        max-height: 75%;
+                        max-width: 50%;
+                        object-fit: contain;
+                      "
+                    />
+                  </div>
+                  <div
+                    style="
+                      height: 30%;
+                      width: 100%;
+                      background-color: beige;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                    "
+                  >
+                    <p>Pre-recorded class</p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                id="box_2"
+                class="col-lg-3"
+                style="
+                  background-color: rgb(196, 233, 140);
+                  border-radius: 2rem;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  padding: 1rem;
+                "
+              >
+                as
+              </div>
+              <div
+                id="box_3"
+                class="col-lg-3"
+                style="
+                  background-color: rgb(235, 196, 255);
+                  border-radius: 2rem;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  padding: 1rem;
+                "
+              >
+                as
+              </div>
+              <div
+                id="box_4"
+                class="col-lg-3"
+                style="
+                  background-color: rgb(255, 196, 197);
+                  border-radius: 2rem;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  padding: 1rem;
+                "
+              >
+                as
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-1"></div>
+        </div>
       </div>
     </section>
 
