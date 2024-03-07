@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <!-- Latest compiled and minified CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+      type="module"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wise Learning</title>
+  </head>
+  <body>
+    <nav id="navbar" style="z-index: 100">
+      <div class="container">
+        <div class="row" id="header_row">
+          <div class="col-sm-1"></div>
+          <div
+            id="center_container"
+            class="col-sm-10"
+            style="
+              padding: 0;
+              background-color: aliceblue;
+              display: flex;
+              justify-content: space-between;
+            "
+          >
+            <a href="#" style="display: flex">
+              <div
+                style="
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                "
+              >
+                <img
+                  id="logo"
+                  src="https://wiselearningapp.com/assets/img/wise-logo.png"
+                  alt="think_wise"
+                />
+              </div>
+            </a>
+            <ul
+              id="nav_list"
+              style="
+                list-style-type: none;
+                display: flex;
+                align-items: center;
+                padding-top: 0.5em;
+              "
+            >
+              <li>
+                <a href="#" class="nav_list">Home</a>
+              </li>
+              <li>
+                <a href="#" class="nav_list">About Us</a>
+              </li>
+              <li>
+                <a href="#" class="nav_list">Features</a>
+              </li>
+              <li>
+                <a href="#" class="nav_list">Screenshots</a>
+              </li>
+
+              <li>
+                <a
+                  href="#"
+                  style="text-decoration: none; color: black; font-weight: bold"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-1" style="padding: 0"></div>
+        </div>
+      </div>
+    </nav>
+
+    <section id="hero" class="container" style="margin-top: 5rem">
+      <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10">
+          <div class="row">
+            <div
+              id="hero_1"
+              class="col-lg-6 col-sm-12"
+              style="padding: 0;height: 100vh;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: flex-start;
+              background-color: rgb(244, 203, 203);"
+            >
+              <div id="hero_left">
+                <div
+                  id="hero_text1_text2"
+                  style="background-color: brown"
+                >
+                  <h1 style="font-weight: bold; justify-content: left">
+                    Wise Learning App
+                  </h1>
+                  <h2 style="font-size: 24px; font-weight: 500">
+                    A Platform for Active Learning.
+                  </h2>
+                </div>
+                <div  style="display: flex; background-color: aqua">
+                  <div id="hero_button" style="width:50%;background-color: aliceblue; display:flex">
+                  <div style="background-color:chocolate_">
+                    <dotlottie-player
+                      src="https://lottie.host/dd4f9b88-4aa4-4caf-9792-f500a10618e1/6XZ6B1TM4u.json"
+                      background="transparent"
+                      speed="1"
+                      style="width: 100%"
+                      loop
+                      autoplay
+                    ></dotlottie-player>
+                  </div>
+                  <div>
+                    <dotlottie-player
+                      src="https://lottie.host/63d897cc-7086-46ac-b2ff-6aee1bf4fe5e/uQbwP8Nf6C.json"
+                      background="transparent"
+                      speed="1"
+                      style="width: 90%"
+                      loop
+                      autoplay
+                    ></dotlottie-player>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-sm-12" id="hero_2" style="padding: 0; height: 100vh; background-color: blanchedalmond;display: flex; justify-content: center; align-items: center;">
+              <div style="background-color:azure;height:95%;width:90%;display: flex; justify-content: center; align-items: center;flex-wrap:wrap">
+                <div class="image-container">
+                  <img class="hero_img" src="https://wiselearningapp.com/assets/img/wise-mockup-image-1.png" alt="Wise Mockup Image" style="max-width: 100%; max-height: 100%;">
+
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col-sm-1"></div>
+      </div>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
