@@ -41,5 +41,4 @@ window.addEventListener('scroll', function() {
     }
   });
 
-  // Call the event listener once to set the initial state
   window.dispatchEvent(new Event('resize'));
