@@ -17,6 +17,7 @@ body{
     transition: padding-top 0.4s, padding-bottom 0.4s; 
     padding-top: 15px; /* Initial padding top */
     padding-bottom: 15px; 
+    background-color: white;
 }
 
 #center_container {
