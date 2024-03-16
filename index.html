@@ -14,6 +14,11 @@
       type="module"
     ></script>
 
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
@@ -30,10 +35,10 @@
     <title>Wise Learning</title>
   </head>
   <body>
-    <nav id="navbar" style="z-index: 100">
+    <nav id="navbar" style="z-index: 100 ; background-colorr:bisque">
       <div class="container">
         <div class="row" id="header_row">
-          <div class="col-sm-1 responsive_off" style="background-color: white"></div>
+          <div class="col-sm-1 responsive_off" style="background-colorr: rgb(207, 23, 23)"></div>
           <div
             id="center_container"
             class="col-sm-10 responsive_change7"
@@ -93,6 +98,10 @@
             </ul>
             
           </div>
+          <div
+            class="col-sm-1 responsive_off"
+            style="padding: 0; background-colorr: rgb(198, 27, 27)"
+          ></div>
           <div class="nav_dorpdown" style="background-color:rgb(187, 198, 195);border-radius: 1.15rem;">
             <div style="padding:1rem">
               <div style="padding-bottom:0.5rem;cursor:pointer">Home</div>
@@ -103,19 +112,18 @@
             </div>
             
           </div>
-          <div
-            class="col-sm-1 responsive_off"
-            style="padding: 0; background-color: white"
-          ></div>
+          
         </div>
+        
       </div>
 
     </nav>
 
-    <section id="hero" class="container" style="margin-top: 5rem">
+
+    <section id="hero" class="container" style="margin-top: 5rem;background-colorr: darksalmon;">
       <div class="row">
-        <div class="col-sm-1 responsive_off"></div>
-        <div class="col-sm-10 responsive_change3">
+        <div class="col-sm-1 responsive_off" style="background-colorr:red"></div>
+        <div class="col-sm-10 responsive_change3" style="background-color:azure">
           <div class="row">
             <div
               id="hero_1"
@@ -130,7 +138,9 @@
                 background-colorr: rgb(244, 203, 203);
               "
             >
-              <div id="hero_left">
+
+
+              <div id="hero_left" data-aos="fade-up" data-aos-duration="2000">
                 <div id="hero_text1_text2" style="background-colorr: brown">
                   <h1 style="font-weight: bold; justify-content: left">
                     Wise Learning App
@@ -139,12 +149,12 @@
                     A Platform for Active Learning.
                   </h2>
                 </div>
-                <div style="display: flex; background-colorr: aqua">
+                <div id="hero_button_container" style="display: flex; background-colorr: aqua">
                   <div
                     id="hero_button"
                     style="
                       width: 50%;
-                      background-colorr: aliceblue;
+                      background-color: aliceblue;
                       display: flex;
                     "
                   >
@@ -173,6 +183,8 @@
               </div>
             </div>
 
+
+
             <div
               class="col-lg-6 col-sm-12"
               id="hero_2"
@@ -186,6 +198,7 @@
               "
             >
               <div
+              data-aos="zoom-in" data-aos-duration="2000"
                 style="
                   background-colorr: azure;
                   height: 95%;
@@ -197,30 +210,36 @@
                 "
               >
                 <div class="image-container">
+
                   <img
                     class="hero_img"
                     src="https://wiselearningapp.com/assets/img/wise-mockup-image-1.png"
                     alt="Wise Mockup Image"
                     style="max-width: 100%; max-height: 100%"
                   />
+                
                 </div>
               </div>
             </div>
+
+
           </div>
         </div>
-        <div class="col-sm-1 responsive_off"></div>
+        <div class="col-sm-1 responsive_off" style="background-colorr:blue"></div>
       </div>
     </section>
+
+  
 
     <section
       id="about"
       style="
-        background-color: #dcedf3;
+        background-colorr: #dcedf3;
         padding-top: 5.25rem;
         padding-bottom: 5.25rem;
       "
     >
-      <div class="container">
+      <div class="container" style="background-colorr:lawngreen">
         <div class="row">
           <div class="col-sm-1 responsive_off"></div>
           <div class="col-sm-10 responsive_change4" style="background-colorr: rgb(239, 170, 170)">
@@ -292,7 +311,7 @@
                         top: 50%;
                         left: 50%;
                         transform: translate(-50%, -50%);
-                        background-colorr: darkgreen;
+                        background-color: darkgreen;
                         height: 4px;
                         width: 10%;
                       "
@@ -313,8 +332,9 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-1 responsive_off"></div>
+           
           </div>
+          <div class="col-sm-1 responsive_off" ></div>
         </div>
       </div>
     </section>
@@ -347,7 +367,7 @@
           <div class="col-sm-1 class=responsive_off"></div>
           <div
             class="col-sm-10 responsive_change1"
-            style="background-colorr: whitesmoke; padding: 0"
+            style="background-colorr: whitesmoke; paddingg: 0"
           >
             <div class="row">
               <div
@@ -380,7 +400,7 @@
                   "
                 ></div>
               </div>
-              <div id="box_1" class="col-xl-3 col-md-6 class_box">
+              <div id="box_1" class="col-6 col-sm-12 col-md-6 col-xl-3 class_box" style="background-colorr:red">
                 <div
                   class="box_first_child"
                   style="background-color: white"
@@ -422,7 +442,7 @@
                 </div>
               </div>
 
-              <div id="box_2" class="col-xl-3 col-md-6 class_box">
+              <div id="box_2" class="col-6 col-sm-12 col-md-6 col-xl-3 class_box" style="background-colorr:red">
                 <div
                   class="box_first_child"
                   style="background-color: #2999bf"
@@ -466,7 +486,7 @@
                 </div>
               </div>
 
-              <div id="box_3" class="col-xl-3 col-md-6 class_box">
+              <div id="box_3" class="col-6 col-sm-12 col-md-6 col-xl-3  class_box" style="background-colorr:red">
                 <div
                   class="box_first_child"
                   style="background-color: white"
@@ -508,7 +528,7 @@
                 </div>
               </div>
 
-              <div id="box_4" class="col-xl-3 col-md-6 class_box">
+              <div id="box_4" class="col-6 col-sm-12 col-md-6 col-xl-3  class_box" style="background-colorr:red">
                 <div
                   class="box_first_child"
                   style="background-color: #2999bf"
@@ -552,7 +572,7 @@
                 </div>
               </div>
 
-              <div id="box_5" class="col-xl-3 col-md-6 class_box">
+              <div id="box_5" class="col-6 col-sm-12 col-md-6 col-xl-3  class_box" style="background-colorr:red">
                 <div
                   class="box_first_child"
                   style="background-color: #2999bf"
@@ -598,7 +618,7 @@
                 </div>
               </div>
 
-              <div id="box_6" class="col-xl-3 col-md-6 class_box">
+              <div id="box_6" class="col-6 col-sm-12 col-md-6 col-xl-3  class_box" style="background-colorr:red">
                 <div
                   class="box_first_child"
                   style="background-color: white"
@@ -640,7 +660,7 @@
                 </div>
               </div>
 
-              <div id="box_7" class="col-xl-3 col-md-6 class_box">
+              <div id="box_7" class="col-6 col-sm-12 col-md-6 col-xl-3  class_box" style="background-colorr:red">
                 <div
                   class="box_first_child"
                   style="background-color: #2999bf"
@@ -686,7 +706,7 @@
                 </div>
               </div>
 
-              <div id="box_8" class="col-xl-3 col-md-6 class_box">
+              <div id="box_8" class="col-6 col-sm-12 col-md-6 col-xl-3  class_box" style="background-colorr:red">
                 <div
                   class="box_first_child"
                   style="background-color: white"
@@ -728,7 +748,7 @@
                 </div>
               </div>
 
-              <div id="box_9" class="col-xl-3 col-md-6 class_box">
+              <div id="box_9" class="col-6 col-sm-12 col-md-6 col-xl-3  class_box" style="background-colorr:red">
                 <div
                   class="box_first_child"
                   style="background-color: white"
@@ -770,7 +790,7 @@
                 </div>
               </div>
 
-              <div id="box_10" class="col-xl-3 col-md-6 class_box">
+              <div id="box_10" class="col-6 col-sm-12 col-md-6 col-xl-3  class_box" style="background-colorr:red">
                 <div
                   class="box_first_child"
                   style="background-color: #2999bf"
@@ -814,7 +834,7 @@
                 </div>
               </div>
 
-              <div id="box_11" class="col-xl-3 col-md-6 class_box">
+              <div id="box_11" class="col-6 col-sm-12 col-md-6 col-xl-3  class_box" style="background-colorr:red">
                 <div
                   class="box_first_child"
                   style="background-color: white"
@@ -856,7 +876,7 @@
                 </div>
               </div>
 
-              <div id="box_12" class="col-xl-3 col-md-6 class_box">
+              <div id="box_12" class="col-6 col-sm-12 col-md-6 col-xl-3  class_box" style="background-colorr:red">
                 <div
                   class="box_first_child"
                   style="background-color: #2999bf"
@@ -909,14 +929,9 @@
       </div>
     </section>
 
-    <section
-      
-      style="
-        background-color: #dcedf3;
-      "
-    >
+    <section>
       <div class="container" id="screenshot" style="padding-top: 4rem;
-      padding-bottom: 4rem;">
+      padding-bottom: 4rem;background-colorr:blueviolet">
         <div class="row">
           <div class="col-sm-1 responsive_off" style="background-colorr:burlywood"></div>
           <div class="col-sm-10 responsive_change2" style="background-colorr:aliceblue">
@@ -931,8 +946,9 @@
                   <div
                     style="
                       font-weight: bold;
-                      font-size: xx-large;
+                      font-size: 32px;
                       text-align: center;
+                      background-colorr: red;
                     "
                   >
                     APP SCREENSHOTS
@@ -952,7 +968,7 @@
                         top: 50%;
                         left: 50%;
                         transform: translate(-50%, -50%);
-                        background-colorr: darkgreen;
+                        background-color: darkgreen;
                         height: 4px;
                         width: 4%;
                       "
@@ -960,9 +976,10 @@
                   </div>
                 </div>
                 <div
+                id="secreenshot_height_manipulation"
                   style="
                     padding:0;
-                    height: 100vh;
+                    height: 70vh;
                     background-colorr: blanchedalmond;
                     display: flex;
                     justify-content: center;
@@ -1001,8 +1018,8 @@
     </section>
 
 
-    <section id="contact_us">
-      <div class="container" style="padding-top: 4rem;padding-bottom: 4rem;">
+    <section id="contact_us" >
+      <div class="container" style="padding-top: 4rem;padding-bottom: 4rem;background-colorr: aquamarine;">
         <div class="row">
           <div class="col-sm-1 responsive_off" style="background-colorr:burlywood"></div>
           <div class="col-sm-10 responsive_change5" style="background-colorr:aliceblue">
@@ -1039,7 +1056,7 @@
                         top: 50%;
                         left: 50%;
                         transform: translate(-50%, -50%);
-                        background-colorr: darkgreen;
+                        background-color: darkgreen;
                         height: 4px;
                         width: 4%;
                       "
@@ -1095,28 +1112,28 @@
                     <div id="right_full" style="background-colorr:rgb(189, 172, 172);margin-left:1rem;border:none;border-radius: 1rem;border-top:.2rem solid #2999bf;border-bottom:.2rem solid #2999bf;margin-top:2rem;box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);padding-top:1rem">
                       <div style="display: flex;flex-direction: row;padding-top: 1rem;">
                         <div style="display:flex; padding: 1rem;width: 50%;flex-direction:column;">
-                          <label for="name">Your Name</label>
+                          <label style="padding-bottom:0.5rem" for="name">Your Name</label>
                           <input style="width:100%;border: 1px solid gray;border-radius:3px;padding: 0.4rem;">
                           </div>
                           <div style="display:flex;width: 50%;padding:1rem ;flex-direction:column;">
-                            <label for="email">Your Email</label>
+                            <label style="padding-bottom:0.5rem" for="email">Your Email</label>
                           <input style="width:100%;border: 1px solid gray;border-radius:3px;padding: 0.4rem;">
                           </div>
                       </div>
                       <div style="padding:1rem;display: flex;flex-direction: column;">
-                        <label>Subject</label>
+                        <label style="padding-bottom:0.5rem">Subject</label>
                         <input style="width:100%;border: 1px solid gray;border-radius:3px;padding: 0.4rem;">
                       </div>
 
                       <div style="padding:1rem 1rem 1rem 1rem;display: flex;flex-direction: column;">
-                        <label>Message</label>
+                        <label style="padding-bottom:0.5rem">Message</label>
                         <textarea rows="10">
                           
                         </textarea>
                       </div>
 
-                      <div style="display:flex;justify-content: center;align-items: center;padding-bottom: 3.6rem;">
-                        <button style="border:none;border-radius:25px;padding:0.65rem 2rem">Send Message</button>
+                      <div style="display:flex;justify-content: center;align-items: center;padding-bottom: 2rem;">
+                       <button style="border:none;border-radius:25px;padding:0.65rem 2rem;background:#2999bf;color:white">Send Message</button>
 
                       </div>
                       
@@ -1136,14 +1153,14 @@
     </section>
 
     <section id="tail">
-      <div class="container" style="padding-top: 2rem;padding-bottom: 1.5rem;">
+      <div class="container" style="padding-top: 2rem;padding-bottom: 1.5rem;background-colorr: aqua;">
         <div class="row">
           <div class="col-sm-1 responsive_off" style="background-colorr:burlywood"></div>
 
 
           <div class="col-sm-10 responsive_change6" style="background-colorr:rgb(115, 142, 220)">
             <div class="row">
-              <div class="col-sm-12" style="padding:0">
+              <div class="col-sm-12" >
                 <div class="row">
                   <div class="col-lg-3" style="background-colorr: rgb(215, 210, 210);">
                     <div style="display: flex;justify-content: left;align-items: center;padding-top:1rem">
@@ -1184,5 +1201,8 @@
     </section>
 
     <script async src="index.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

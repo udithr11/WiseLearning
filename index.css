@@ -190,6 +190,12 @@ body{
    .nav_off{
     display:flex;
     }
+    #hero_button{
+        width:43% !important;
+    }
+    #hero_button_container{
+        padding-left:5rem !important; 
+    }
     
 }
 
@@ -198,10 +204,13 @@ body{
 
     .hamburger-icon {
       display: flex !important;
+      padding-right:1rem !important;
     }
     .close-icon {
         display: none !important; 
         cursor: pointer;
+        padding-right:1rem !important;
+
     }
     .nav_dorpdown{
         display: none !important;
@@ -212,6 +221,28 @@ body{
     }
     .show{
         display:flex !important;
+    }
+    #secreenshot_height_manipulation{
+        height:46vh !important;
+    }
+
+  }
+
+  @media (max-width: 768px){
+    #hero_button_container{
+        padding-left:1.3rem !important;
+    }
+    #class_box{
+        padding:0 !important;
+    }
+  }
+  @media (max-width: 575px){
+    #hero_button{
+        margin-left:28% !important;
+    }
+    #features{
+        padding-left:1rem !important;
+        padding-right:1rem !important;
     }
   }
 
